@@ -1,0 +1,95 @@
+/*ESTILO*/
+body { background-color:#f8f8ff;
+       margin: 0px; }
+
+h1 {color: rgba(245, 245, 245, 0.9); 
+    font-size:70px ; 
+    font-family: courier;
+    text-align: center; }
+
+h2{color: black; 
+   font-size:40px ; 
+   font-family: courier; }
+
+h3 {margin: 0;
+    color: black;
+    text-align: center; 
+    font-size:40px ; 
+    font-family: courier; }
+
+h4 {margin: 0;
+    color: black;
+    text-align: center;
+    font-size:35px;
+    font-family:times new roman;}    
+
+p {color: rgba(0,0,0,0.8);
+   font-size:70px ; 
+   font-family: courier; }
+
+a { text-align: center;
+    color: black ;
+    text-decoration: none;}  
+
+a:hover {text-decoration: none; color: white;}    
+
+.banner {padding: 150px 0;
+         background-size: cover;
+         background-position: center; }   
+
+.banner h1 {color: white;
+            margin :0;
+            text-align: left;
+            font-size:52px;
+            font-weight:bold;}   
+
+.banner p  {color: white;
+            opacity: 0.8;}                     
+
+.btn-flat {background-color:#00825a ;
+           color:black;
+           padding:8px 24px; }   
+
+.btn-flat:hover {background-color: #00825a;
+                  color:white;}            
+
+
+.servicio {font-size: 15px;
+           font-family: courier; }
+
+.info p {margin: 0px;
+         font-size: 30px;
+         color: white;
+         text-align:center;}
+
+.container p {margin: 0px;}   
+
+
+.tarjeta p {margin: 0px;
+            font-size: 20px;}      
+
+.footer{ padding: 30px;
+         background-color:#e3f2fd;
+         color: #000;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;}
+
+.footer a { color: #000;
+            font-size: 18px;}
+  
+.footer a:hover { color: white;}
+
+@media (max-width:768px) {
+.footer {display: flex;
+         flex-direction:column;
+         align-items: center;
+         justify-content: space-around;
+       }
+}
+
+                  
+
+ 
+
+
